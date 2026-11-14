@@ -1,0 +1,12 @@
+version: "2"
+sql:
+  - name: tenancy
+    engine: postgresql
+    schema: internal/modules/tenancy/internal/infrastructure/postgres/migrations
+    queries: internal/modules/tenancy/internal/infrastructure/postgres/queries
+    gen:
+      go:
+        package: tenancydb
+        out: internal/modules/tenancy/internal/infrastructure/postgres/db
+        sql_package: pgx/v5
+        emit_interface: true

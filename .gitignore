@@ -1,0 +1,9 @@
+.idea/
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+/bin/
+/coverage.out

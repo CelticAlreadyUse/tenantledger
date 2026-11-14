@@ -1,0 +1,13 @@
+11/14/2026
+List:
+Go API,
+PostgreSQL,
+tenant context,
+IAM (Identity Access Management),
+RBAC,
+organisasi,
+user membership,
+automated tenant isolation tests.
+
+The list above was What Im should Built for completing the basic setup. Btw this will not use any container for helping making IAM, RBAC,
+and others, so it's pure was a single-skeleton for handling IAM,RBAC dan Organisation.
